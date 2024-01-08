@@ -1,0 +1,44 @@
+.authorsList {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+.authorCard {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  overflow: hidden;
+  background-color: #b8cdeeef;
+  border-radius: 10px;
+  border: 1px solid #00000045;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.authorCard img {
+  border-radius: 50%;
+  margin: 10px auto;
+  display: flex;
+  width: 80px;
+}
+.authorCard h3 {
+  margin: 5px 0;
+}
+.authorCard h5 {
+  font-size: 16px;
+  color:rgb(109, 3, 3);
+}
+.authorsPage h2 {
+  font-size: 48px;
+  text-align: center;
+  padding: 20px 0;
+}
+.message {
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: center;
+  min-width: 80vw;
+}
